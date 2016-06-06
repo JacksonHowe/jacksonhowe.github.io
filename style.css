@@ -62,3 +62,7 @@ a {
 a:hover {
     font-weight: 300;
 }
+
+.icon {
+    height: 0.65em;
+}
