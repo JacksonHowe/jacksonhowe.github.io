@@ -1,0 +1,13 @@
+.column {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+}
+
+.column img, a img {
+    width: 100%;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
