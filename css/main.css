@@ -52,3 +52,7 @@ p {
     font-weight: 400;
     font-size: 16px;
 }
+
+.icon {
+    height: 0.65em;
+}
