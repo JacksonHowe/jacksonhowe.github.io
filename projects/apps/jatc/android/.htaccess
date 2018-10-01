@@ -1,3 +1,0 @@
-RewriteEngine On
-RewriteRule ^.*$ https://play.google.com/store/apps/details?id=com.jatc.jatc [R=301]
-

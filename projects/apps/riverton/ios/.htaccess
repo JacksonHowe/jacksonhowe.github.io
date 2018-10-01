@@ -1,3 +1,0 @@
-RewriteEngine On
-RewriteRule ^.*$ https://itunes.apple.com/us/app/riverton-high-silverwolves/id1024218265 [R=301]
-
