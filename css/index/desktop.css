@@ -1,0 +1,284 @@
+@import url("http://fonts.googleapis.com/css?family=Quicksand:400,700|Shadows+Into+Light|Inika");
+
+body {
+    margin: 0;
+}
+
+.background {
+    position: fixed;
+    z-index: -10;
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+
+.background img {
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    opacity: 0.75;
+    background-color: #FFFFFF;
+    display: table;
+    margin: 0;
+}
+
+.inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align:center;
+}
+
+.header h1 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    padding: 0;
+    margin: 0;
+}
+
+.header h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.header p {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    z-index: 10;
+    position: absolute;
+    height: 54px;
+    width: 100%;
+    top: 250px;
+    opacity: 0.8;
+    background-color: #606060;
+    display: table;
+    text-align: center;
+}
+
+.navbar p {
+    display: inline-block;
+    padding: 0 5% 0 5%;
+}
+
+.navbar a {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    transition: color 0.25s linear;
+}
+
+.navbar .active {
+    font-weight: 700;
+}
+
+.navbar a:hover {
+    color: #C0C0C0;
+}
+
+.master {
+    position: absolute;
+    width: 100%;
+    top: 304px;
+}
+
+.master p {
+    margin: 0;
+}
+
+.body1 {
+    display: block;
+    padding: 60px 6% 60px 6%;
+}
+
+.body1 .technologiesicons {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+.body1 img {
+    width: 7%;
+    display: inline-block;
+	padding: 0 0.25% 0 0.25%;
+	opacity: 1;
+	-webkit-backface-visibility: hidden;
+	transition: opacity 0.5s;
+}
+
+.body1 img:hover {
+    opacity: 0.3;
+}
+
+.body1 a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s linear;
+}
+
+.body1 a:hover {
+    color: #D8D8D8;
+}
+
+.body2 {
+    background-color: #FFFFFF;
+    opacity: 0.95;
+    padding: 0px 10% 0px 10%;
+    color: #202020;
+}
+
+.body2 h1 {
+    font-size: 35px;
+    margin-top: 0px;
+}
+
+.body2 img {
+    display: inline-block;
+    width: 30%;
+    padding: 5% 5% 0 0;
+    vertical-align: middle;
+}
+
+.body2 .caption {
+    display: inline-block;
+    padding: 5% 5% 5% 5%;
+    vertical-align: middle;
+    text-align: left;
+    width: 52%;
+    font-family: "Inika", sans-serif;
+    font-size: 18px;
+}
+
+.body3 {
+    padding: 40px 80px 20px 80px;
+    color: white;
+    text-align: center;
+}
+
+.body3 h2 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.body3 > p {
+    color: white;
+    text-align: center;
+    font-family: "Shadows Into Light", cursive;
+    font-size: 25px;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.body3 a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s linear;
+}
+
+.body3 a:hover {
+    color: #D8D8D8;
+}
+
+#webdevtutorialscaption {
+    display: inline-block;
+    padding: 0 1% 0 1%;
+    vertical-align: middle;
+    text-align: right;
+    width: 20%;
+    font-family: "Inika", sans-serif;
+    font-size: 15px;
+}
+
+#webdevtutorialsimage {
+    display: inline-block;
+    width: 25%;
+    padding: 0 1% 0 1%;
+    vertical-align: middle;
+}
+
+#theencryptorimage {
+    display: inline-block;
+    width: 25%;
+    padding: 0 1% 0 1%;
+    vertical-align: middle;
+}
+
+#theencryptorcaption {
+    display: inline-block;
+    padding: 0 1% 0 1%;
+    vertical-align: middle;
+    text-align: left;
+    width: 20%;
+    font-family: "Inika", sans-serif;
+    font-size: 15px;
+}
+
+.body4 {
+    display: block;
+    background-color: #FFFFFF;
+    opacity: 0.95;
+    padding: 75px 50px 75px 50px;
+}
+
+.body4 .socialmediaicons {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+.body4 img {
+	padding: 0 1% 0 1%;
+	-webkit-backface-visibility: hidden;
+	transition: opacity 0.5s;
+}
+
+.body4 img:hover {
+	opacity: 0.5;
+}
+
+.footer {
+    display: block;
+    background-color: #272727;
+    opacity: 1;
+    padding: 40px 120px 40px 120px;
+    color: #A0A0A0;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.footer .left {
+    display: inline-block;
+    float: left;
+}
+
+.footer .right {
+    display: inline-block;
+    float: right;
+}
+
+.footer a {
+    color: #A0A0A0;
+    text-decoration: none;
+    font-weight: 300;
+    transition: color 0.3s linear;
+}
+
+.footer a:hover {
+    color: white;
+    font-weight: 400;
+}

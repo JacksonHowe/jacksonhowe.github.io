@@ -1,0 +1,268 @@
+@import url("http://fonts.googleapis.com/css?family=Quicksand:400,700|Shadows+Into+Light|Inika");
+
+body {
+    margin: 0;
+}
+
+.background {
+    position: fixed;
+    z-index: -10;
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+
+.background img {
+    height:100%;
+    width:100%;
+}
+
+.header {
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    opacity: 0.75;
+    background-color: #FFFFFF;
+    display: table;
+    margin: 0;
+}
+
+.inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align:center;
+}
+
+.header h1 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 85px;
+    padding: 0;
+    margin: 0;
+}
+
+.header h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.header p {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    top: 250px;
+    opacity: 0.8;
+    background-color: #606060;
+    display: table;
+    text-align: center;
+}
+
+.navbar .mobilecenter {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.navbar p {
+    display: block;
+    padding: 0 0 0 0;
+}
+
+.navbar a {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.25s linear;
+}
+
+.navbar .active {
+    font-weight: 700;
+}
+
+.navbar a:hover {
+    color: #C0C0C0;
+}
+
+.master {
+    position: absolute;
+    width: 100%;
+    top: 600px;
+}
+
+.master p {
+    margin: 0;
+}
+
+.body1 {
+    display: block;
+    padding: 40px 0 40px 0;
+}
+
+.technologiesicons {
+    text-align: center;
+}
+
+.body1 img {
+    width: 25%;
+    display: inline-block;
+	padding: 5px;
+    text-align: center;
+	opacity: 1;
+	-webkit-backface-visibility: hidden;
+	transition: opacity 0.5s;
+}
+
+.body1 img:hover {
+    opacity: 0.3;
+}
+
+.body1 a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s linear;
+}
+
+.body1 a:hover {
+    color: #D8D8D8;
+}
+
+.body2 {
+    background-color: #FFFFFF;
+    opacity: 0.95;
+    padding: 100px;
+    color: #202020;
+}
+
+.body2 h1 {
+    font-size: 45px;
+    margin-top: 0px;
+}
+
+.body2 img {
+    display: none;
+}
+
+.body2 .caption {
+    display: inline-block;
+    padding: 0;
+    vertical-align: middle;
+    font-family: "Inika", sans-serif;
+    font-size: 30px;
+    width: 100%;
+}
+
+.body3 {
+    padding: 40px 0 20px 0;
+    text-align: center;
+}
+
+.body3 > p {
+    color: white;
+    text-align: center;
+    font-family: "Shadows Into Light", cursive;
+    font-size: 40px;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.body3 a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s linear;
+}
+
+.body3 a:hover {
+    color: #D8D8D8;
+}
+
+#webdevtutorialscaption {
+    display: none;
+}
+
+#webdevtutorialsimage {
+    display: block;
+    width: 72%;
+    padding: 0 14% 0 14%;
+}
+
+#theencryptorimage {
+    display: block;
+    width: 72%;
+    padding: 0 14% 0 14%;
+}
+
+#theencryptorcaption {
+    display: none;
+}
+
+.body4 {
+    display: block;
+    padding: 30px 0 30px 0;
+    background-color: #FFFFFF;
+    opacity: 0.95;
+}
+
+.body4 .socialmediaicons {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+.body4 img {
+	padding: 2%;
+	-webkit-backface-visibility: hidden;
+	transition: opacity 0.5s;
+    width: 25%;
+}
+
+.body4 img:hover {
+	opacity: 0.5;
+}
+
+.footer {
+    display: block;
+    background-color: #272727;
+    opacity: 1;
+    padding: 40px 120px 40px 120px;
+    color: #A0A0A0;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.footer .left {
+    display: inline-block;
+    float: left;
+}
+
+.footer .right {
+    display: inline-block;
+    float: right;
+}
+
+.footer a {
+    color: #A0A0A0;
+    text-decoration: none;
+    font-weight: 300;
+    transition: color 0.3s linear;
+}
+
+.footer a:hover {
+    color: white;
+    font-weight: 400;
+}
+
+.footer a:hover {
+    color: white;
+    font-weight: 400;
+}

@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^.*$ https://www.linkedin.com/in/jacksonhowe [R=301]
+

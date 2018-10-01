@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^.*$ https://itunes.apple.com/us/app/jatc-jordan-academy-for-technology/id1074033974 [R=301]
+

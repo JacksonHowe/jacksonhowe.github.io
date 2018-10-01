@@ -1,0 +1,20 @@
+Quality (1-10): 9
+Learner Style: auditory
+Age: 15
+
+Quality (1-10): 9
+Learner Style: tactile
+Age: 16
+
+Quality (1-10): 10
+Learner Style: tactile
+Age: na
+
+Quality (1-10): 8
+Learner Style: tactile
+Age: 16
+
+Quality (1-10): 10
+Learner Style: auditory
+Age: 16
+

@@ -1,0 +1,17 @@
+ErrorDocument 400 /resources/errors/400.php
+ErrorDocument 401 /resources/errors/401.php
+ErrorDocument 403 /resources/errors/403.php
+ErrorDocument 404 /resources/errors/404.php
+ErrorDocument 500 /resources/errors/500.php
+
+Options All -Indexes
+DirectoryIndex index.php
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ $1.php [L]
+
+RewriteEngine on
+RewriteCond %{HTTP_USER_AGENT} "MSIE" [NC]
+RewriteRule ^(.*)$ http://webdevtutorials.net/resources/errors/no_ie.php [R=301,L]

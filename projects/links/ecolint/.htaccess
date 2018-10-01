@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^.*$ https://sites.google.com/site/jacksonhoweeportfolio/ [R=301]
+

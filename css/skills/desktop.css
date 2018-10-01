@@ -1,0 +1,183 @@
+@import url("http://fonts.googleapis.com/css?family=Quicksand:400,700|Shadows+Into+Light|Inika");
+
+body {
+    margin: 0;
+}
+
+.background {
+    position: fixed;
+    z-index: -10;
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+
+.background img {
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    opacity: 0.75;
+    background-color: #FFFFFF;
+    display: table;
+    margin: 0;
+}
+
+.inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align:center;
+}
+
+.header h1 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    padding: 0;
+    margin: 0;
+}
+
+.header h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.header p {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    z-index: 10;
+    position: absolute;
+    height: 54px;
+    width: 100%;
+    top: 250px;
+    opacity: 0.8;
+    background-color: #606060;
+    display: table;
+    text-align: center;
+}
+
+.navbar p {
+    display: inline-block;
+    padding: 0 5% 0 5%;
+}
+
+.navbar a {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    transition: color 0.25s linear;
+}
+
+.navbar .active {
+    font-weight: 700;
+}
+
+.navbar a:hover {
+    color: #C0C0C0;
+}
+
+.master {
+    position: absolute;
+    width: 100%;
+    top: 304px;
+}
+
+.master p {
+    margin: 0;
+}
+
+.pane {
+    display: block;
+    margin: 3% 25% 3% 25%;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 5px;
+    padding: 60px;
+    padding-right: 40px;
+}
+
+.pane img {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 30px;
+}
+
+.pane .caption {
+    display: inline-block;
+    vertical-align: middle;
+    width: 58%;
+}
+
+.pane h2 {
+    margin-top: 0;
+    margin-bottom: .5em;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+}
+
+.pane p {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    color: #787878;
+}
+
+.pane .circle {
+    display: inline-block;
+    margin: 1em 8px 0 0;
+    height: 1em;
+    width: 1em;
+    opacity: 0.8;
+}
+
+.pane .certified {
+    display: inline-block;
+    height: 1em;
+    padding: 0 0 0 10px;
+}
+
+.footer {
+    display: block;
+    background-color: #272727;
+    opacity: 1;
+    padding: 40px 120px 40px 120px;
+    color: #A0A0A0;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.footer .left {
+    display: inline-block;
+    float: left;
+}
+
+.footer .right {
+    display: inline-block;
+    float: right;
+}
+
+.footer a {
+    color: #A0A0A0;
+    text-decoration: none;
+    font-weight: 300;
+    transition: color 0.3s linear;
+}
+
+.footer a:hover {
+    color: white;
+    font-weight: 400;
+}
