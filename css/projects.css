@@ -56,7 +56,7 @@ nav {
     transition: transform .2s;
 }
 
-.imgbox3 img:hover, .imgbox2 img:hover, .imgbox1 img:hover {
+.imgbox3 img:hover, .imgbox1 img:hover {
     transform: scale(2);
 }
 
