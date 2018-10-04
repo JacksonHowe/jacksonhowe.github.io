@@ -1,0 +1,9 @@
+ErrorDocument 400 /resources/errors/400.php
+ErrorDocument 401 /resources/errors/401.php
+ErrorDocument 403 /resources/errors/403.php
+ErrorDocument 404 /resources/errors/404.php
+ErrorDocument 500 /resources/errors/500.php
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
