@@ -1,8 +1,8 @@
 @import url("http://fonts.googleapis.com/css?family=Quicksand:400,300");
 
 html, body {
-    height: 100%;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 .background {
@@ -20,18 +20,22 @@ html, body {
 
 .container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     height: 100%;
 }
 
 .main {
     width: 550px;
-    background-color: #FFFFFF;
-    opacity: 0.95;
+    background-color: #F0F0F0;
+    opacity: 0.90;
     padding: 80px;
     text-align: center;
     border-radius: 10px;
+}
+
+.portrait {
+    height: 130px;
 }
 
 hr {
@@ -44,7 +48,13 @@ hr {
 h1 {
     font-family: "Quicksand", sans-serif;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 35px;
+}
+
+h2 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 200;
+    font-size: 25px;
 }
 
 p {
@@ -55,4 +65,65 @@ p {
 
 .icon {
     height: 0.65em;
+}
+
+.tag {
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.tag p {
+    margin: 6px 14px 6px 14px;
+    color: #FFFFFF;
+}
+
+.tag1 {
+    background-color: #355F6A;
+}
+
+.tag2 {
+    background-color: #56B49C;
+}
+
+.tag3 {
+    background-color: #997944;
+}
+
+.tag4 {
+    background-color: #C6AA2D;
+}
+
+.tag5 {
+    background-color: #F16531;
+}
+
+.tag6 {
+    background-color: #F03236;
+}
+
+.taglink {
+    background-color: #F03236;
+}
+
+.taglink:hover {
+    background-color: #F03936;
+}
+
+nav {
+    width: 670px;
+    align-text: right;
+    padding: 12px;
+}
+
+nav a {
+    color: #FFFFFF;
+    font-family: "Quicksand", sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: #F0F0F0;
 }

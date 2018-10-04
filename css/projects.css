@@ -1,0 +1,60 @@
+nav {
+    margin-top: 100px;
+}
+
+.main {
+    margin-top: 30px;
+}
+
+.header {
+    margin-top: 0;
+}
+
+.header h1 {
+    margin-bottom: 0;
+}
+
+.header h2 {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.arrow {
+    margin-bottom: 0;
+}
+
+.group {
+    width: 100%;
+    text-align: left;
+}
+
+.imgbox3 {
+    float: left;
+    width: 31%;
+    padding: 1%;
+}
+
+.imgbox2 {
+    float: left;
+    width: 48%;
+    padding: 1%;
+}
+
+.imgbox1 {
+    float: left;
+    width: 100%;
+}
+
+.imgbox3 p, imgbox2 p, .imgbox1 p {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.imgbox3 img, .imgbox2 img, .imgbox1 img {
+    width: 100%;
+}
+
+.last {
+    margin-bottom: 100px;
+}

@@ -1,0 +1,67 @@
+nav {
+    margin-top: 100px;
+}
+
+.main {
+    margin-top: 30px;
+}
+
+.certimage {
+    width: 35%;
+}
+
+.button {
+    display: inline-table;
+    width: 45%;
+    height: 30px;
+    border: 1px solid #F03236;
+    border-radius: 5px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.button a {
+    display: table-cell;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #F03236;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.button:hover {
+    background-color: #F03236;
+    transition: 0.3s all;
+}
+
+.button a:hover {
+    color: white;
+    transition: 0.3s all;
+}
+
+.last {
+    margin-bottom: 100px;
+}
+
+.header {
+    margin-top: 0;
+}
+
+.header h1 {
+    margin-bottom: 0;
+}
+
+.header h2 {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.arrow {
+    margin-bottom: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
