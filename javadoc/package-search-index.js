@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"main.dao"},{"l":"main.model"},{"l":"main.service"},{"l":"main.service_request"},{"l":"main.service_response"}]
