@@ -1,69 +1,36 @@
-nav {
-    margin-top: 100px;
-}
-
-.main {
-    margin-top: 30px;
-}
-
-.header {
-    margin-top: 0;
-}
-
-.header h1 {
-    margin-bottom: 0;
-}
-
-.header h2 {
-    margin-top: 10px;
-    margin-bottom: 25px;
-}
-
 .arrow {
     margin-bottom: 0;
 }
 
-.group {
-    width: 100%;
-    text-align: left;
+.carousel-item img {
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 400px;
 }
 
-.imgbox3 {
-    float: left;
-    width: 31%;
-    padding: 1%;
+.carousel-caption {
+    color: black;
+    border-radius: 4px;
+    position: relative;
+    margin-top: 50px;
+    padding: 0;
+    left: auto;
+    right: auto;
 }
 
-.imgbox2 {
-    float: left;
-    width: 48%;
-    padding: 1%;
+.carousel {
+    padding: 40px;
+    background-color: rgba(233, 236, 239, 0.9);
+    border-radius: .3rem;
+    margin-bottom: 2rem;
 }
 
-.imgbox1 {
-    float: left;
-    width: 100%;
+.carousel-caption p {
+    margin-top: 8px;
+    color: rgb(50, 50, 50)
 }
 
-.imgbox3 p, imgbox2 p, .imgbox1 p {
-    font-family: "Quicksand", sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-}
-
-.imgbox3 img, .imgbox2 img, .imgbox1 img {
-    width: 100%;
-    transition: transform .2s;
-}
-
-.imgbox3 img:hover, .imgbox1 img:hover {
-    transform: scale(2);
-}
-
-.imgbox2 img:hover {
-    transform: scale(3.5);
-}
-
-.last {
-    margin-bottom: 100px;
+.carousel h2 {
+    padding: 10px 40px 40px 40px;
 }

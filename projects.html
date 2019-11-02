@@ -1,163 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-55205788-2"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-55205788-2');
+        </script>
+
         <title>Jackson Howe - Portfolio</title>
         
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="author" content="Jackson Howe">
         <meta name="keywords" content="jackson, howe, geoffrey, web development, mobile, app, portfolio, resume, work, experience, development, html, cv, java, android, ios">
             
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link href="css/main.css" rel="stylesheet" type="text/css">
         <link href="css/projects.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <div class="background"><img src="images/background.jpg"></div>
-        
-        <div class="container">
-            <nav>
-                <a href="/">PROFILE</a>
-                <a href="projects"><b>PROJECTS</b></a>
-                <a href="certifications">CERTIFICATIONS</a>
-            </nav>
-            
-            <div class="main header">
-                <img src="images/jackson.png" alt="Jackson Howe" class="portrait">
-                <h1>JACKSON HOWE</h1>
-                <h2>PROJECTS</h2>
+        <div class="container h-100 d-flex">
+            <div class="box w-75">
+                <nav>
+                    <a href="/">PROFILE</a>
+                    <a href="projects.html"><b>PROJECTS</b></a>
+                </nav>
                 
-                <p class="arrow"><img src="images/down.png" class="icon"></p>
-            </div>
+                <div class="jumbotron">
+                    <img src="images/jackson.png" alt="Jackson Howe" class="portrait">
+                    <h1>JACKSON HOWE</h1>
+                    <h2>PROJECTS</h2>
+                    
+                    <p class="arrow"><img src="images/down.png" class="icon"></p>
+                </div>
+                
+                <div id="carousel1" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel1" data-slide-to="1"></li>
+                        <li data-target="#carousel1" data-slide-to="2"></li>
+                        <li data-target="#carousel1" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <h2><b>Bingham High Android App.</b> An app for high school students and faculty at Bingham. <i>Native Android App. Also done for iOS.</i></h2>
+                        <div class="carousel-item active">
+                            <img src="images/projects/bingham/calendar.png" class="d-block">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>School Calendar</h5>
+                                <p>Calendar of classes, sports games, and activities at Bingham.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/projects/bingham/map.png" class="d-block">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>School Map</h5>
+                                <p>View location within the school and quickly search for the next class.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/projects/bingham/notifications.png" class="d-block">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Notifications from Teachers</h5>
+                                <p>Teachers and administrators can send push notifications to students about homework or emergencies.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/projects/bingham/homework.png" class="d-block">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Homework Planner</h5>
+                                <p>Students can organize assignments in their virtual planner and receive notifications before deadlines.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span></a>
+                    <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span></a>
+                </div>
+                
+                <div id="carousel2" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel2" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel2" data-slide-to="1"></li>
+                        <li data-target="#carousel2" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <h2><b>Riverton High iOS App.</b> An app for high school students and faculty in Riverton. <i>Native iOS app. Also done for Android.</i></h2>
+                        <div class="carousel-item active">
+                            <img src="images/projects/riverton/home.png" class="d-block">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Home Screen</h5>
+                                <p>View app features.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/projects/riverton/map.png" class="d-block">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>School Map</h5>
+                                <p>View location within the school and quickly search for the next class.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/projects/riverton/gpacalc.png" class="d-block">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>GPA Calculator</h5>
+                                <p>Calculate GPA based off current or predicted grades in a class.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span></a>
+                    <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span></a>
+                </div>
+                
+                <div id="carousel3" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel3" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel3" data-slide-to="1"></li>
+                        <li data-target="#carousel3" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <h2><b>JATC Android App.</b> Student app at the Jordan Applied Technology Center. <i>Native Android app. Also done for iOS.</i></h2>
+                        <div class="carousel-item active">
+                            <img src="images/projects/jatc/menu.png" class="d-block">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>App Menu</h5>
+                                <p>View app features from side menu.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/projects/jatc/helpcenter.png" class="d-block">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Help Center</h5>
+                                <p>Quickly find resources to get help at JATC.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/projects/jatc/focustimer.png" class="d-block">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Focus Timer</h5>
+                                <p>Students can enable the focus timer to disable the device and improve concentration in class.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel3" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span></a>
+                    <a class="carousel-control-next" href="#carousel3" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span></a>
+                </div>
+                
+                <div id="carousel4" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel4" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel4" data-slide-to="1"></li>
+                        <li data-target="#carousel4" data-slide-to="2"></li>
+                        <li data-target="#carousel4" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <h2><b>WebDevTutorials.</b> Online resource to help people learn how to make websites. <i>HTML website using PHP and MySQL database.</i></h2>
+                        <div class="carousel-item active">
+                            <img src="images/projects/wdt/home.png" class="d-block">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Home</h5>
+                                <p>Home page of the website.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/projects/wdt/login.png" class="d-block">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Login</h5>
+                                <p>View user's current progress and continue the next tutorial.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/projects/wdt/editor.png" class="d-block">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Code Editor</h5>
+                                <p>Code pages within the interactive site.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/projects/wdt/glossary.png" class="d-block">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Glossary of Terms</h5>
+                                <p>View a glossary of common terms in the lesson.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel4" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span></a>
+                    <a class="carousel-control-next" href="#carousel4" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span></a>
+                </div>
+                
+                <div id="carousel5" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel5" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel5" data-slide-to="1"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <h2><b>The Encryptor.</b> Experimental encryption algorithm to secure text.</h2>
+                        <div class="carousel-item active">
+                            <img src="images/projects/encryptor/home.png" class="d-block">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Home</h5>
+                                <p>Home page of the website.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/projects/encryptor/modal.png" class="d-block">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Database</h5>
+                                <p>Supports saving encrypted text to a database.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel5" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span></a>
+                    <a class="carousel-control-next" href="#carousel5" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span></a>
+                </div>
+                
+                <div id="carousel6" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel6" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel6" data-slide-to="1"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <h2><b>Other Projects.</b></h2>
+                        <div class="carousel-item active">
+                            <img src="images/projects/other/basketball.png" class="d-block">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Bingham Basketball Website</h5>
+                                <p>Website of the Bingham Miners Basketball team.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/projects/other/push.png" class="d-block">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Push Notification Sender</h5>
+                                <p>Used with some apps to remotely send push notifications to subscribers.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel6" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span></a>
+                    <a class="carousel-control-next" href="#carousel6" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span></a>
+                </div>
 
-        <div class="container">
-            
-            <div class="main">
-                <div class="group">
-                    <h2><b>Bingham High Android App.</b> An app for high school students and faculty at Bingham. <i>Also done for iOS.</i></h2>
-                    
-                    <div class="imgbox3">
-                        <img src="images/projects/bingham/calendar.png" alt="Bingham High Android App - Calendar">
-                        <p><b>School Calendar</b> Calendar of classes, sports games, and activities at Bingham.</p>
-                    </div>
-                    
-                    <div class="imgbox3">
-                        <img src="images/projects/bingham/map.png" alt="Bingham High Android App - Map">
-                        <p><b>School Map</b> View location within the school and quickly search for the next class.</p>
-                    </div>
-                    
-                    <div class="imgbox3">
-                        <img src="images/projects/bingham/notifications.png" alt="Bingham High Android App - Notifications">
-                        <p><b>Notifications from Teachers</b> Teachers and administrators can send push notifications to students about homework or emergencies.</p>
-                    </div>
-                </div>
             </div>
-            
-            <div class="main">
-                <div class="group">
-                    <h2><b>Riverton High iOS App.</b> An app for high school students and faculty in Riverton. <i>Also done for Android.</i></h2>
-                    
-                    <div class="imgbox3">
-                        <img src="images/projects/riverton/home.png" alt="Riverton High iOS App - Home Screen">
-                        <p><b>Home Screen</b> View app features.</p>
-                    </div>
-                    
-                    <div class="imgbox3">
-                        <img src="images/projects/riverton/map.png" alt="Riverton High iOS App - Map">
-                        <p><b>School Map</b> View location within the school and quickly search for the next class.</p>
-                    </div>
-                    
-                    <div class="imgbox3">
-                        <img src="images/projects/riverton/gpacalc.png" alt="Riverton High iOS App - GPA Calculator">
-                        <p><b>GPA Calculator</b> Calculate GPA based off current or predicted grades in a class.</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="main">
-                <div class="group">
-                    <h2><b>JATC Android App.</b> Student app at the Jordan Applied Technology Center. <i>Also done for iOS.</i></h2>
-                    
-                    <div class="imgbox3">
-                        <img src="images/projects/jatc/menu.png" alt="JATC Android App - App Menu">
-                        <p><b>App Menu</b> View app features from side menu.</p>
-                    </div>
-                    
-                    <div class="imgbox3">
-                        <img src="images/projects/jatc/helpcenter.png" alt="JATC Android App - Help Center">
-                        <p><b>Help Center</b> Quickly find resources to get help at JATC.</p>
-                    </div>
-                    
-                    <div class="imgbox3">
-                        <img src="images/projects/jatc/focustimer.png" alt="JATC Android App - Focus Timer">
-                        <p><b>Focus Timer</b> Students can enable the focus timer to disable the device and improve concentration in class.</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="main">
-                <div class="group">
-                    <h2><b>WebDevTutorials.</b> Online resource to help people learn how to make websites.</h2>
-                    
-                    <div class="imgbox2">
-                        <img src="images/projects/wdt/home.png" alt="WebDevTutorials - Home">
-                        <p><b>Home</b> Home page of the website.</p>
-                    </div>
-                    
-                    <div class="imgbox2">
-                        <img src="images/projects/wdt/login.png" alt="WebDevTutorials - Login">
-                        <p><b>Login</b> View user's current progress and continue the next tutorial.</p>
-                    </div>
-                </div>
-                
-                <div class="group">
-                    <div class="imgbox2">
-                        <img src="images/projects/wdt/editor.png" alt="WebDevTutorials - Code Editor">
-                        <p><b>Code Editor</b> Code pages within the interactive site.</p>
-                    </div>
-                    
-                    <div class="imgbox2">
-                        <img src="images/projects/wdt/glossary.png" alt="WebDevTutorials - Glossary of Terms">
-                        <p><b>Glossary of Terms</b> View a glossary of common terms in the lesson.</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="main">
-                <div class="group">
-                    <h2><b>The Encryptor.</b> Experimental encryption algorithm to secure text.</h2>
-                    
-                    <div class="imgbox2">
-                        <img src="images/projects/encryptor/home.png" alt="The Encryptor - Home">
-                        <p><b>Home</b> Home page of the website.</p>
-                    </div>
-                    
-                    <div class="imgbox2">
-                        <img src="images/projects/encryptor/modal.png" alt="The Encryptor - Database">
-                        <p><b>Database</b> Supports saving encrypted text to a database.</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="main last">
-                <div class="group">
-                    <h2><b>Other Projects.</b></h2>
-                    
-                    <div class="imgbox1">
-                        <img src="images/projects/other/basketball.png" alt="Bingham Basketball">
-                        <p><b>Bingham Basketball Website</b> Website of the Bingham Miners Basketball team.</p>
-                    </div>
-                    
-                    <div class="imgbox1">
-                        <img src="images/projects/other/push.png" alt="Push Notification Sender">
-                        <p><b>Push Notification Sender</b> Used with some apps to remotely send push notifications to subscribers.</p>
-                    </div>
-                    
-                    <div class="imgbox1">
-                        <img src="images/projects/other/portfolio.png" alt="Portfolio">
-                        <p><b>Contact Page</b> Portfolio website to provide contact details.</p>
-                    </div>
-                </div>
-            </div>
-    
         </div>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>
+
