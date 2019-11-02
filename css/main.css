@@ -13,10 +13,6 @@ body {
     background-size: cover;
 }
 
-nav {
-    margin-top: 40px;
-}
-
 .box {
     margin: auto;
 }
@@ -25,13 +21,6 @@ nav {
     text-align: center;
     padding: 70px 80px 40px 80px;
     opacity: 0.9;
-}
-
-@media only screen and (max-width: 768px) {
-    .jumbotron {
-        padding-left: 40px;
-        padding-right: 40px;
-    }
 }
 
 .portrait {
@@ -73,9 +62,9 @@ hr {
 }
 
 nav {
-    width: 670px;
     align-text: right;
     padding: 12px;
+    margin-top: 40px;
 }
 
 nav a {
@@ -149,4 +138,27 @@ p a:hover {
     color: black;
     font-weight: 300;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .jumbotron {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    h1 {
+        font-size: 30px;
+    }
+    
+    h2 {
+        font-size: 18px;
+    }
+    
+    h5 {
+        font-size: 14px;
+    }
+    
+    p {
+        font-size: 12px;
+    }
 }
